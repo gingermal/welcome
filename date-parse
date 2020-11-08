@@ -1,0 +1,13 @@
+#!/bin/bash
+
+echo "Rise and shine! Carpe Diem!"
+
+CURRENT_DATE=$(date +"%d-%m-%Y")
+echo "The current date is" $CURRENT_DATE
+CURRENT_TIME=$(DATE +"%H:%M:%S %p")
+echo "The current time is" $CURRENT_TIME
+
+cowsay Time to seize the carp!
+a="Time to seize the carp!"
+echo How many letters was that?
+echo ${#a}
